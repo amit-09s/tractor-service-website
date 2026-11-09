@@ -6,7 +6,8 @@ export default function Contact() {
     name: "",
     phone: "",
     tractor: "",
-    service: ""
+    service: "",
+    staff:"",
   });
 
   const handleSubmit = (e) => {
@@ -19,6 +20,7 @@ Name: ${form.name}
 Phone: ${form.phone}
 Tractor Model: ${form.tractor}
 Service: ${form.service}
+Staff: ${form.staff}
     `;
 
     window.open(
@@ -102,6 +104,14 @@ Service: ${form.service}
             className="w-full p-4 border rounded-lg"
             value={form.tractor}
             onChange={(e) => setForm({...form, tractor:e.target.value})}
+          />
+
+          <input
+            required
+            placeholder="Staff Name"
+            className="w-full p-4 border rounded-lg"
+            value={form.staff}
+            onChange={(e) => setForm({...form, staff:e.target.value})}
           />
 
           <select
