@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -12,12 +13,7 @@ function App() {
       <About />
       <Services />
 
-      <section id="gallery" className="py-20 text-center bg-gray-50">
-        <h2 className="text-4xl font-bold">Our Work Gallery</h2>
-        <p className="mt-4 text-gray-500">
-          Add your tractor repair and workshop photos here.
-        </p>
-      </section>
+      <Gallery />
 
       <section className="py-16 text-center">
         <h2 className="text-3xl font-bold">Trusted Tractor Service</h2>

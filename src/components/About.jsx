@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         <img
-          src="https://images.unsplash.com/photo-1592982537447-6f2a6a0c5a1e?w=900"
+          src="https://th.bing.com/th/id/OIG4.8l2th9HA.mm9DOzPQx1J?pid=ImgGn"
           alt="Agricultural tractor"
           className="rounded-2xl w-full h-[400px] object-cover"
         />
