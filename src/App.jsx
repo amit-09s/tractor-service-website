@@ -4,8 +4,11 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Navbar />
@@ -16,16 +19,16 @@ function App() {
       <Gallery />
 
       <section className="py-16 text-center">
-        <h2 className="text-3xl font-bold">Trusted Tractor Service</h2>
+        <h2 className="text-3xl font-bold">{t("trust.title")}</h2>
         <p className="mt-4 text-gray-600">
-          Quality work and reliable service for every farmer.
+          {t("trust.description")}
         </p>
       </section>
 
       <Contact />
 
       <footer className="bg-black text-white text-center p-6">
-        © 2026 TractorCare. All Rights Reserved.
+        {t("footer")}
       </footer>
     </>
   );

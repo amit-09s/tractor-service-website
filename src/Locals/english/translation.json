@@ -1,0 +1,111 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "bookService": "Book Service",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "toggle": "Toggle navigation"
+  },
+  "hero": {
+    "eyebrow": "Professional Tractor Services",
+    "title": "Your Tractor Deserves",
+    "highlight": " Expert Care.",
+    "description": "Reliable tractor repair, maintenance and spare parts to keep your farming work running smoothly.",
+    "book": "Book a Service",
+    "call": "Call Now"
+  },
+  "about": {
+    "eyebrow": "ABOUT OUR WORKSHOP",
+    "title": "Keeping Your Tractors Ready for Every Season",
+    "description": "We provide reliable tractor maintenance and repair solutions. Our focus is on quality work, honest pricing and customer satisfaction.",
+    "imageAlt": "Agricultural tractor",
+    "benefits": [
+      "Experienced mechanics",
+      "Quality spare parts",
+      "Affordable service charges",
+      "Reliable repair solutions"
+    ]
+  },
+  "services": {
+    "eyebrow": "What We Offer",
+    "title": "Our Tractor Services",
+    "description": "Complete solutions for all your tractor needs.",
+    "getService": "Get Service →",
+    "items": {
+      "general": {
+        "title": "General Servicing",
+        "description": "Complete tractor inspection and regular maintenance."
+      },
+      "engine": {
+        "title": "Engine Repair",
+        "description": "Professional engine diagnosis and repair services."
+      },
+      "hydraulic": {
+        "title": "Hydraulic Repair",
+        "description": "Hydraulic system inspection and maintenance."
+      },
+      "electrical": {
+        "title": "Electrical Work",
+        "description": "Battery, wiring and electrical system repair."
+      },
+      "brakes": {
+        "title": "Brake & Clutch",
+        "description": "Brake and clutch checking and replacement."
+      },
+      "parts": {
+        "title": "Spare Parts",
+        "description": "Quality tractor spare parts and accessories."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Our Work Gallery",
+    "items": {
+      "washing": "Tractor Washing",
+      "maintenance": "Engine Maintenance",
+      "fieldRepair": "Field Repair",
+      "mobileService": "Mobile Service",
+      "tractorService": "Tractor Service",
+      "mechanic": "Tractor Mechanic",
+      "engineRepair": "Engine Repair",
+      "team": "Our Service Team"
+    },
+    "alts": {
+      "washing": "Tractor washing - technician pressure-washing a green tractor",
+      "maintenance": "Engine maintenance - mechanic inspecting an open tractor engine",
+      "fieldRepair": "Field repair - tractor repair in a field with a mobile service vehicle",
+      "mobileService": "Mobile service - service van assisting a tractor on a farm",
+      "tractorService": "Tractor service - mechanic servicing a tractor in a workshop",
+      "mechanic": "Tractor mechanic - close-up of a mechanic repairing an engine",
+      "engineRepair": "Engine repair - mechanic diagnosing a tractor with service equipment",
+      "team": "Service team - tractor technicians standing in their workshop"
+    }
+  },
+  "trust": {
+    "title": "Trusted Tractor Service",
+    "description": "Quality work and reliable service for every farmer."
+  },
+  "contact": {
+    "eyebrow": "CONTACT US",
+    "title": "Book Your Tractor Service Today",
+    "description": "Contact us for tractor maintenance, repair and spare parts.",
+    "phoneLabel": "Phone Number",
+    "addressLabel": "Shop Address",
+    "address": "Bhopal Road, Near petrol Pump, Berasia, Madhya Pradesh, India",
+    "hoursLabel": "Opening Hours",
+    "hours": "Monday - Saturday",
+    "formTitle": "Service Booking",
+    "name": "Your Name",
+    "phone": "Mobile Number",
+    "tractor": "Tractor Model",
+    "staff": "Staff Name",
+    "selectService": "Select Service",
+    "submit": "Book Service on WhatsApp",
+    "whatsappMessage": "Hello, I want to book a tractor service.\n\nName: {{name}}\nPhone: {{phone}}\nTractor Model: {{tractor}}\nService: {{service}}\nStaff: {{staff}}"
+  },
+  "footer": "© 2026 TractorCare. All Rights Reserved."
+}
